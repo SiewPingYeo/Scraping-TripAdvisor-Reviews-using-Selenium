@@ -4,7 +4,7 @@ This project aims to scrape reviews by hotel guests from TripAdvisor for ROW NYC
 The code can also be adjusted to scrape as many pages of reviews as you may need. 
 
 ## Why the use of Selenium instead of Beautiful Soup?
-The first choice of web scraper for this project is Beautiful Soup. However, there were some challenges in getting requests from the URL and hence, the Selenium was used instead. 
+The first choice of web scraper for this project is Beautiful Soup. However, there were some challenges in getting requests from the URL. In addition, there are certain interactable elements that we have to access to get the full review e.g Read more button. Hence, the Selenium was used instead.
 
 ## The potential use of this dataset:
 1. Sentiment Analysis using Machine Learning
